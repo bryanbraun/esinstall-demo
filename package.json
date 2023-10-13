@@ -1,0 +1,17 @@
+{
+  "name": "esinstall-demo",
+  "scripts": {
+    "build": "node install-modules.mjs"
+  },
+  "dependencies": {
+    "dom-confetti": "^0.2.2"
+  },
+  "devDependencies": {
+    "esinstall": "^1.1.7"
+  },
+  "esinstall": {
+    "install": [
+      "dom-confetti"
+    ]
+  }
+}
